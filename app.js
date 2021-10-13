@@ -20,6 +20,6 @@ app.get("/gifs/:search", (req, res) => {
 // server
 const server = http.createServer(app);
 
-server.listen(3000, () => {
-    console.log("Server is listening on localhost:3000...");
+server.listen(5000, () => {
+    console.log("Server is listening on port 5000...");
 });

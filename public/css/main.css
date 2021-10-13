@@ -1,5 +1,32 @@
+html,
 body {
-    background-color: #282b30;
-    font-family: Arial;
-    color: white;
+    background-color: #121212;
+    font-family: 'Source Code Pro', monospace;
+    color: #ffffff;
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+#heading {
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+hr {
+    border-top: 3px solid black;
+}
+
+#footer {
+    margin: 350px;
+    text-align: center;
+}
+
+.content {
+    background-color: #2c2f33;
+    height: 125px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 6px;
+    text-align: center;
 }

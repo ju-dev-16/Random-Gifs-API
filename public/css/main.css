@@ -11,6 +11,7 @@ body {
 #heading {
     font-size: 20px;
     margin-left: 25px;
+    text-decoration: solid;
 }
 
 hr {
@@ -22,11 +23,41 @@ hr {
     text-align: center;
 }
 
+#button_home {
+    box-shadow: 5px 5px 5px black;
+}
+
+#button_docs {
+    box-shadow: 5px 5px 5px black;
+}
+
+#button_about {
+    box-shadow: 5px 5px 5px black;
+}
+
 .content {
     background-color: #2c2f33;
     height: 125px;
     margin-left: 25px;
     margin-right: 25px;
     border-radius: 6px;
-    text-align: center;
+    padding-left: 20px;
+    box-shadow: 10px 7px 5px black;
+}
+
+.headings {
+    font-size: 14px;
+    color: #99aab5;
+    padding-top: 10px;
+}
+
+.input_heading {
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.input {
+    font-size: 25px;
+    color: #99aab5;
+    text-decoration: none;
 }

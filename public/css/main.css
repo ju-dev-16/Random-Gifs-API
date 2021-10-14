@@ -67,6 +67,7 @@ hr {
     color: #99aab5;
     padding: 15px;
     padding-left: 0px;
+    text-decoration: none;
 }
 
 #info_container {
@@ -91,6 +92,20 @@ hr {
     margin-bottom: -28px;
 }
 
+#credits {
+    padding-left: 12px;
+}
+
+#doc {
+    height: 423px;
+    margin-top: 24px;
+}
+
+#clear {
+    background-color: #121212;
+    height: 352.4px;
+}
+
 @media (max-width: 1000px) {
     .input_heading {
         margin-bottom: 5px;
@@ -108,5 +123,8 @@ hr {
     }
     #button_docs {
         margin-right: 10px;
+    }
+    #doc {
+        height: 423px;
     }
 }

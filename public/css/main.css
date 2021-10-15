@@ -98,12 +98,57 @@ hr {
 
 #doc {
     height: 423px;
+    width: 450px;
     margin-top: 24px;
 }
 
 #clear {
     background-color: #121212;
     height: 352.4px;
+}
+
+#get {
+    width: 275px;
+    height: 30px;
+    background-color: #121212;
+    box-shadow: none;
+    padding-right: 100px;
+    margin-left: 5px;
+}
+
+#search {
+    margin-bottom: 50px;
+    padding-right: 10px;
+}
+
+#cent {
+    padding-right: 200px;
+}
+
+#search_bar {
+    text-align: left;
+}
+
+#param {
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-bottom: -10px;
+}
+
+.list {
+    padding-right: 10px;
+}
+
+#return {
+    margin: 25px;
+    padding-right: 50px;
+    margin-right: 350px;
+}
+
+#returned {
+    text-align: left;
+    margin-right: 10px;
 }
 
 @media (max-width: 1000px) {

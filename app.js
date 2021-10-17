@@ -27,7 +27,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/gifs/:search", (req, res) => {
-    res.send(req.params);
+    res.send("");
 });
 
 const server = http.createServer(app);

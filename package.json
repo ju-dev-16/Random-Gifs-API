@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Jahid06/Random-Gifs-API#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "puppeteer": "^10.4.0"
   }
 }

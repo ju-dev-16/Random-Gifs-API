@@ -1,17 +1,17 @@
 # Random-Gifs-API
 
-<h2>How to use:</h2>
+**How to use:**
 
-GetGifs
+<h2>GetGifs</h2>
 
 Get Gifs by search
 
 ```GET {baseUrl}/gifs/{search}```
 
-Get Params:
+**Get Params:**
 
 search: The name of the gif you want to search
 
-Returns:
+**Returns:**
 
 A gif in string format

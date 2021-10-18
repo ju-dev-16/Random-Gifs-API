@@ -4,7 +4,8 @@ const http = require("http");
 
 const express = require("express");
 
-const logger = require("./public/javascript/logger")
+const logger = require("./public/javascript/logger");
+const fetch = require("./public/javascript/fetch");
 
 const app = express();
 
@@ -27,7 +28,9 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/gifs/:search", (req, res) => {
-    res.send("");
+    const gifs = `${req.params}`;
+
+    res.send(`${fetch(gifs)}`);
 });
 
 const server = http.createServer(app);

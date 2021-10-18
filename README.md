@@ -1,7 +1,5 @@
 # Random-Gifs-API
 
-**How to use:**
-
 <h2>GetGifs</h2>
 
 Get Gifs by search

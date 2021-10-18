@@ -1,6 +1,6 @@
 # Random-Gifs-API
 
-How to use:
+**How to use:**
 
 GetGifs
 

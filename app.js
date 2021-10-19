@@ -8,6 +8,7 @@ const logger = require("./public/javascript/logger");
 const fetch = require("./public/javascript/fetch");
 
 const app = express();
+const port = process.env.PORT || 5000;
 
 app.use(express.static(__dirname + "/public"));
 
@@ -27,14 +28,14 @@ app.get("/about", (req, res) => {
     res.sendFile(__dirname + "/templates/about.html");
 });
 
-app.get("/gifs/:search", (req, res) => {
-    const gifs = `${req.params}`;
-
-    res.send(`${fetch(gifs)}`);
+app.get("/gifs/:search", async(req, res) => {
+    res.send({
+        "gif": await fetch(`${req.params["search"]}`)
+    });
 });
 
 const server = http.createServer(app);
 
-server.listen(5000, () => {
-    console.log("Server is listening on port 5000...");
+server.listen(port, () => {
+    console.log(`Server is listening on port ${port}...`);
 });

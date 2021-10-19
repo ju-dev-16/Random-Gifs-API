@@ -10,7 +10,7 @@ function getRandomNumber(min, max) {
     return result
 }
 
-async function gifs(search = "rickroll") {
+async function gifs(search) {
     const url = `https://tenor.com/search/${search}`;
 
     const browser = await puppeteer.launch();
@@ -30,4 +30,4 @@ async function gifs(search = "rickroll") {
     return listOfGifs[result];
 }
 
-module.exports = gifs();
+module.exports = gifs;

@@ -1,23 +1,24 @@
 {
-  "name": "random-gifs-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jahid06/Random-Gifs-API.git"
-  },
-  "author": "JuDev",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jahid06/Random-Gifs-API/issues"
-  },
-  "homepage": "https://github.com/Jahid06/Random-Gifs-API#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "puppeteer": "^10.4.0"
-  }
+    "name": "random-gifs-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jahid06/Random-Gifs-API.git"
+    },
+    "author": "JuDev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Jahid06/Random-Gifs-API/issues"
+    },
+    "homepage": "https://github.com/Jahid06/Random-Gifs-API#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "puppeteer": "^10.4.0"
+    }
 }

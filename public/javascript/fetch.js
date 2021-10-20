@@ -25,9 +25,13 @@ async function gifs(search) {
 
     const result = getRandomNumber(0, listOfGifs.length - 1);
 
+    const gif = {
+        "gif": listOfGifs[result]
+    };
+
     browser.close();
 
-    return listOfGifs[result];
+    return gif;
 }
 
 module.exports = gifs;

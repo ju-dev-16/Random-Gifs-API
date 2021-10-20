@@ -29,9 +29,7 @@ app.get("/about", (req, res) => {
 });
 
 app.get("/gifs/:search", async(req, res) => {
-    res.send({
-        "gif": await fetch(`${req.params["search"]}`)
-    });
+    res.send(await fetch(`${req.params["search"]}`));
 });
 
 const server = http.createServer(app);

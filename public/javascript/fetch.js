@@ -18,7 +18,7 @@ async function gifs(search) {
             '--no-sandbox',
             '--disable-setuid-sandbox'
         ],
-        headless = false
+        headless: false
     });
 
     const page = await browser.newPage();

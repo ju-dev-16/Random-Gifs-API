@@ -1,17 +1,30 @@
 # Random-Gifs-API
 
-![Alt Text](https://images.vexels.com/media/users/3/135811/isolated/lists/f3dc1094d770aadce0dff261623fddb6-wuerfel-3d-symbol.png)
+### 👋 Introduction
 
-<h2>Get gifs</h2>
+This REST-API returns a random gif which you specified in the path. For more informations follow the documentation.
 
-Get Gifs by search
+### 📄 Documentation
 
-```GET {baseUrl}/gifs/{search}```
+## How to get a random gif
 
-**Get Params:**
+#### Git Bash:
+```curl {baseUrl}/gifs/{search}```
 
-search: The name of the gif you want to search
+#### Params:
 
-**Returns:**
+*baseUrl:*  ```https://random-gifs-api.herokuapp.com```
 
-A gif in string format
+*search*:  Your search. For example: ```apple```
+
+#### Example: 
+```curl https://random-gifs-api.herokuapp.com/gifs/apple```
+
+#### Returns:
+A random link: ```https://c.tenor.com/lNyG1A5meX0AAAAj/apple-logo.gif```
+
+
+### 👨‍💻 About me
+
+- 👾 Discord server: **[Developer Forum DE]([https://discord.gg/urvsvPqQ3T])**
+-   📫 How to reach me: **[jahidudd65@gmail.com](mailto:jahidudd65@gmail.com)**

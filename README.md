@@ -26,5 +26,5 @@ A random link: ```https://c.tenor.com/lNyG1A5meX0AAAAj/apple-logo.gif```
 
 ### 👨‍💻 About me
 
-- 👾 Discord server: [Developer Forum DE]([https://discord.gg/urvsvPqQ3T])
+- 👾 Discord server: **[Developer Forum DE](https://discord.gg/urvsvPqQ3T)**
 -   📫 How to reach me: **[jahidudd65@gmail.com](mailto:jahidudd65@gmail.com)**

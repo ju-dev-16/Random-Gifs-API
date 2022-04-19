@@ -8,7 +8,7 @@ const logger = require("./public/javascript/logger");
 const fetch = require("./public/javascript/fetch");
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = 5000;
 
 app.use(express.static(__dirname + "/public"));
 

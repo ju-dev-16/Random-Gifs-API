@@ -20,7 +20,7 @@ curl {baseUrl}/gifs/{search}
 https://random-gifs-api.herokuapp.com
 ```
 
-*search*:  Your search. For example: 
+*search:*  Your search. For example: 
 ```
 apple
 ```
